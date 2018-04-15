@@ -2,7 +2,7 @@
     "name": "sequelize-vscode-association-snippet",
     "displayName": "Sequelize VSCode Association Snippet",
     "description": "Snippets for creating interface mixins in VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "louisyuenll",
     "engines": {
         "vscode": "^1.0.0"

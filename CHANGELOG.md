@@ -6,13 +6,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## [1.0.0] - 2018-04-14
+## [0.0.1] - 2018-04-14
 
-- Initial release
+Initial release
 
 ### Added
 
-- Sequelize hasOne mixins snippets
-- Sequelize hasMany mixins snippets
-- Sequelize belongsTo mixins snippets
-- Sequelize belongsToMany mixins snippets
+- Sequelize hasOne mixins snippet
+- Sequelize hasMany mixins snippet
+- Sequelize belongsTo mixins snippet
+- Sequelize belongsToMany mixins snippet
+
+## [0.0.2] - 2018-04-15
+
+Add create Sequelize model snippet
+
+### Added
+
+- Sequelize create model snippet

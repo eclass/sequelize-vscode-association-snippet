@@ -52,5 +52,23 @@
 			"count${1:Model}: Sequelize.BelongsToManyCountAssociationsMixin;"
 		],
 		"description": "Sequelize belongsToMany mixins"
+	},
+	"SEQUELIZE_MODEL": {
+		"prefix": "sequelizeModel",
+		"body": [
+			"interface ${1:Model}Attributes {",
+			"\t// TODO: Add model attributes",
+			"\t$0",
+			"}",
+			"",
+			"interface ${1:Model}Instance extends ${2:Sequelize}.Instance<${1:Model}Attributes>, ${1:Model}Attributes {",
+			"\t// TODO: Add instance methods",
+			"}",
+			"",
+			"const ${1:Model}: Sequelize.Model<${1:Model}Instance, ${1:Model}Attributes> = ${3:sequelize}.define(\"${4:model}\", {",
+			"\t// TODO: Add model definition",
+			"});"
+		],
+		"description": "Create a Sequelize model"
 	}
 }
